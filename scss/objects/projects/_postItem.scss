@@ -9,9 +9,18 @@
     font-size: $smallFontSize;
   }
 
+  &__terms {
+    color: themeColor("primary");
+
+    span {
+      padding-right: space(2);
+    }
+  }
+
   &__heading {
     margin-top: space(2);
     margin-bottom: space(1);
+    font-size: $h2FontSize;
   }
 
   &__excerpt {
